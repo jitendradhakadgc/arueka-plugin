@@ -1,0 +1,651 @@
+.gc-wrap,
+.gc-list-wrap {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gc-list-wrap {
+    max-width: 100%;
+}
+.gc_vendor_hide{
+    display: none !important;
+}
+
+.gc-wrap form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 30%;
+}
+.gc_sub_category {
+	background-color: #f0f0f1;
+}
+.gc_img_sec, .gc_subcategory{
+	display: flex;
+}
+.gc-wrap form input[type="text"],
+.gc-wrap form input[type="email"],
+.business_telephone, .gc_sub_category {
+    width: 68%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.gc-wrap form .button {
+    display: inline-block;
+    padding: 3px 15px;
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.gc-wrap form .button:hover {
+    background-color: #005580;
+}
+
+.gc-vendor-success-message,
+.gc-vendor-error-message {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.gc-vendor-success-message {
+    color: green;
+}
+
+.gc-vendor-error-message {
+    color: red;
+}
+
+.gc-cat-wrap .button.button-danger {
+    color: #fff;
+    background: red;
+    border-color: #fff;
+}        
+.gc-wrap form .button:hover {
+    color:aliceblue;
+}
+/* Ram */
+.gc-row h4 {
+    margin: 0px;
+    padding: 0px;
+    /* min-width: 30% !important; */
+}
+.tier-input-group{
+   display: flex; 
+   flex-direction: column; 
+   margin: 0px 0px !important;
+}
+.tier-label{
+    margin: 0px 0px !important;
+
+}
+/* view form */
+.gcunique-form a {
+    width: calc(51% - 0px);
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.gc-business-hide{
+    display: none;
+}
+.gc-wrap {
+       padding: 20px !important;
+       max-height: 400px;
+       overflow-x: hidden;
+
+   }
+
+
+   .gc-addon-dropdown, .gc-addon-input {
+       margin-bottom: 10px;
+   }
+
+   .gc-input-rows {
+       display: block;
+       flex-wrap: wrap;
+       justify-content: space-between;
+   }
+
+   .gc-row {
+       flex: 0 0 30%;
+       box-sizing: border-box;
+       padding: 10px 10px 10px 0px;
+       margin-bottom: 10px;
+
+   }
+
+   .gc-top-panel {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: #f2f2f2;
+       padding: 10px;
+       margin-bottom: 10px;
+   }
+
+   .addon-name {
+       font-weight: bold;
+   }
+
+   .remove-addon {
+       color: red;
+       cursor: pointer;
+       margin-right: 10px;
+   }
+
+   .show-hide-addon {
+       cursor: pointer;
+   }
+
+   #add-page {
+       margin-top: 20px;
+   }
+   .gc-dropdown-addon{
+       display: flex;
+       gap:10px;
+   }
+   .gc-addon-actions{
+       display: flex;
+       gap:10px;
+   }
+   .gc-input-row {
+       display:flex;
+       flex-direction:column;
+   }
+   .gc-row {
+       display:flex;
+       gap:10px;
+       align-items: center;
+   }
+   .gc-row h4 {
+    margin: 0px;
+    padding: 0px;
+    min-width: 44px;
+}
+ .gc-row input[type="text"]{
+       width:100% !important;
+   }
+   #gc-settings-form{
+   display: none;
+   margin:10px;
+}
+.gc-save-addons-first{
+	margin-bottom: 6px;
+}
+.button-danger{
+	background: red !important;
+    border-color: red !important;
+    color: #fff !important;
+}
+.action.column-action a{
+	margin: 4px;
+    width: 98%;
+    text-align: center;
+} 
+
+
+.gc-wrap-vendor form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 30%;
+}
+.gc-wrap-vendor form input[type="text"],
+.gc-wrap-vendor form input[type="email"],
+.business_telephone, .gc_sub_category {
+    width: 68%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.button.button-go-to-list {
+    display: inline-block;
+    padding: 3px 15px;
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.gc-wrap-vendor form .button:hover {
+    background-color: #005580;
+	color: #fff;
+}
+.gc-wrap-vendor {
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+/* popup deny */
+.gcunique-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.gcunique-popup2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.gcunique-popup-industry{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.gcunique-popup-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 80%;
+  max-width: 500px;
+}
+
+.gcunique-close {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.gcunique-close:hover,
+.gcunique-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gcunique-form input[type="email"],
+#gcunique-description {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 4px !important;
+}
+
+.gcunique-quantity-msg {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: var(--wd-form-brd-width) solid var(--wd-form-brd-color) !important;
+    border-radius: 4px !important;
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+.gcunique-form input[type="submit"] {
+  background-color: #01395E;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.gcunique-form input[type="submit"]:hover {
+  background-color: #012d4b;
+}
+
+#gcunique-description {
+    max-width: 100%;
+}
+.gcunique-close-btn-x {
+  
+    top: 1vw;
+    right: 1vw;
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+	float: inline-end; 
+}
+.gcunique-close-btn-xx {
+  
+    top: 1vw;
+    right: 1vw;
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+	float: inline-end; 
+}
+
+.gcunique-close-btn-industry{
+ top: 1vw;
+    right: 1vw;
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+	float: inline-end; 
+}
+
+
+/* .gc-desc{
+	
+} */
+/* popup deny */
+
+/* aruke setting */
+.Gc_wrap.gc-arueka-setting {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gc-arueka-setting h1 {
+	margin-top: 0;
+}
+
+.gc-arueka-setting label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.gc-arueka-setting .input-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.gc-arueka-setting input[type="file"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	flex: -1;
+}
+
+.gc-arueka-setting input[type="submit"] {
+	background-color: #0073e6;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.gc-arueka-setting input[type="submit"]:hover {
+	background-color: #005aa6;
+}
+
+.gc-arueka-setting #uploaded-image {
+	margin-top: 20px;
+}
+
+.gc-arueka-setting #uploaded-image img {
+	max-width: 100%;
+	max-height: 150px;
+	/* Adjust this value as needed */
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.gc-success-message {
+	background-color: #d4edda;
+	color: #0000CD;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+.gc-error-message {
+	background-color: #f8d7da;
+	color: #721c24;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+/* aruke setting */
+
+/* subscription */
+.gcc-container {
+        width: 90%;
+        margin: 50px auto;
+        position: relative; /* Added for positioning */
+    }
+    .gcc-card-parent {
+        position: relative; /* Added for positioning */
+        padding: 20px;
+        margin: 0px 10px 0px 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .gcc-card {
+        text-align: left;
+    }
+    .gcc-card h3 {
+        color: #333;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .gcc-card p {
+        color: #666;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+	
+.gc-quantity-input {
+    width: 34px;
+    text-align: center;
+    margin: 5px 0;
+    border: none;
+    text-align: end;
+}
+
+.gc-quantity-controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 32px;
+}
+
+.gc-quantity-controls button {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.gc-increment,
+.gc-decrement {
+    margin-top: 6px;
+    height: 30px;
+    width: 20px;
+}
+.gc-quantity-input {
+    width: 20%;
+    text-align: center;
+    margin: 5px 0;
+    border: none;
+    text-align: end;
+    border-radius: 10px !important;
+}
+
+.gc-quantity-controls {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 32px;
+}
+
+.gc-quantity-controls button {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.gc-increment,
+.gc-decrement {
+    margin-top: 6px;
+    height: 30px;
+    width: 20px;
+}
+
+
+.gc-quantity-controls input[type='number'] {
+    border: none !important;
+    /* width: 34px !important; */
+}
+
+.gc-addon-price p{
+	margin-top: 10px;
+}
+.gc-addon-title {
+    padding-top: "17px";
+    margin-top: 20px;
+}
+.gc-addon-title {
+    padding-top: "17px";
+    margin-top: 20px;
+}
+.gc-addon {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+} 
+.gc-addon .Gc_add_check {
+    margin: 1em 0;
+}
+.Gc-add-to-cart {
+    background-color: #01395E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.gc-hide-button{
+	display:none;
+}
+.gcc-card-parent{
+	width: 40%;
+	margin-bottom: 10px;
+}
+/* subscription */
+.Gc_send_a_quote{
+	background-color: #01395E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* popup loader */
+
+ /* Loader container */
+.loading-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it's above other elements */
+}
+
+/* Loader animation */
+.loader {
+  border: 4px solid #3498db; /* Primary color */
+  border-radius: 50%;
+  border-top: 4px solid #f3f3f3; /* Light grey */
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite; /* Rotate animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
